@@ -124,7 +124,7 @@
     
     transition: 0.3s;
 }
-
+/*  
 .card {
     border-radius:6px;
     box-shadow: 3px 4px 8px 0 rgba(104, 104, 104, 0.8);
@@ -133,6 +133,7 @@
     text-align:left;
   
 }
+*/
 
 .subtitle {
     position:relative;
@@ -150,7 +151,7 @@
     min-height:98vh;
     background-color:#03a9f4;
 }
-
+ /*  
 .card h2 {
     font-size:2em;
     text-align:left;
@@ -195,7 +196,7 @@
     background-image:url(media/Barce.jpeg);
     background-size:cover;
 }
-
+*/
 
 
 ul {
