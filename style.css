@@ -232,24 +232,27 @@ background-color: #111;
 }
 
 .grid {
+
     display:grid;
-    grid-template-columns:2fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
     grid-gap:20px;
     width:80%;
     margin:0 auto;
-    
+    margin-top:10vh;
     
 }
 
+
 .grid div {
-    margin-top:10vh;
+    
     background-color:beige;
     display:flex;
-    height:15vh;
     justify-content:center;
     align-items:center;
     border: 1px black solid;
+    min-height:16vh;
     
-
 }
+
+
