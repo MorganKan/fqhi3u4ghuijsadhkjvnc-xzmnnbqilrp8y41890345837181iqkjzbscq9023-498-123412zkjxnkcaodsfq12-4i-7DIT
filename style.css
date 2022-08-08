@@ -236,14 +236,14 @@ background-color: #111;
     display:grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
-    grid-gap:20px;
-    width:90%;
-    margin:0 auto;
-    margin-top:10vh;
+    grid-gap:25px;
+    width:1350px;
+    margin:0 50px;
+    margin-top:50px;
     grid-template-areas:
     "sq rt rt "
     "sq rt rt "
-    "li li co "
+    "li rt rt "
     "ti ti co ";
 }
 
@@ -255,16 +255,21 @@ background-color: #111;
     justify-content:center;
     align-items:center;
     border: 1px black solid;
-    min-height:16vh;
+    min-height:140px;
     
 }
 
 .a {
     grid-area: sq;
+   
+    
+    
 }
 
 .b {
     grid-area: rt;
+    background-image:url(media/tower.jpeg);
+    background-size:cover;
 }
 
 .c { 
