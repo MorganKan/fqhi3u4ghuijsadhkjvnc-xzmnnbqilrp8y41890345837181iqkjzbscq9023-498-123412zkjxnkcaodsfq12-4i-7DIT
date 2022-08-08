@@ -237,10 +237,14 @@ background-color: #111;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-template-rows:1fr 1fr;
     grid-gap:20px;
-    width:80%;
+    width:90%;
     margin:0 auto;
     margin-top:10vh;
-    
+    grid-template-areas:
+    "sq rt rt "
+    "sq rt rt "
+    "li li co "
+    "ti ti co ";
 }
 
 
@@ -255,4 +259,18 @@ background-color: #111;
     
 }
 
+.a {
+    grid-area: sq;
+}
 
+.b {
+    grid-area: rt;
+}
+
+.c { 
+    grid-area: li;
+}
+
+.d {
+    grid-area: co;
+}
