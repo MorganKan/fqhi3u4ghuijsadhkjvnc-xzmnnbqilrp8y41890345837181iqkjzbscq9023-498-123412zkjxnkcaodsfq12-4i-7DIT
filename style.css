@@ -241,10 +241,11 @@ background-color: #111;
     margin:0 50px;
     margin-top:50px;
     grid-template-areas:
-    "sq rt rt "
-    "sq rt rt "
-    "li rt rt "
-    "ti ti co ";
+    "sq rt rt a"
+    "sq rt rt b"
+    "li rt rt c"
+    "ti ti co co "
+    "ti ti zx d";
 }
 
 
@@ -254,15 +255,25 @@ background-color: #111;
     display:flex;
     justify-content:center;
     align-items:center;
-    border: 1px black solid;
-    min-height:140px;
+    border: 1px white solid;
+    min-height:165px;
+    transition: transform .3s;
     
 }
 
+.grid div:hover  {
+    
+    transform: scale(1.04);
+    transition: transform .3s;
+
+
+}
+
+
 .a {
     grid-area: sq;
-   
-    
+    background-image:url(media/Dubai.jpeg);
+    background-size:cover;
     
 }
 
@@ -274,8 +285,18 @@ background-color: #111;
 
 .c { 
     grid-area: li;
+    background-image:url(media/queenstown.jpeg);
+    background-size:cover;
+
 }
 
 .d {
     grid-area: co;
+}
+
+.e {
+    
+    grid-area: ti;
+    background-image:url(media/malay\ rock.jpeg);
+    background-size:cover;
 }
