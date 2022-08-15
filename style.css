@@ -238,14 +238,17 @@ background-color: #111;
     grid-template-rows:1fr 1fr;
     grid-gap:25px;
     width:1350px;
-    margin:0 50px;
-    margin-top:50px;
+    margin: 35px auto;
+    
     grid-template-areas:
-    "sq rt rt a"
-    "sq rt rt b"
-    "li rt rt c"
-    "ti ti co co "
-    "ti ti zx d";
+    "sq rt rt x"
+    "sq rt rt q"
+    "li rt rt d"
+    "ti ti co gx"
+    "ti ti co gx"
+    "da xe xe zi"
+    "da xe xe gy";
+    
 }
 
 
@@ -257,14 +260,14 @@ background-color: #111;
     align-items:center;
     border: 1px white solid;
     min-height:165px;
-    transition: transform .3s;
+    transition: transform .2s;
     
 }
 
 .grid div:hover  {
     
-    transform: scale(1.04);
-    transition: transform .3s;
+    transform: scale(1.05);
+    transition: transform 0.3s;
 
 
 }
@@ -285,18 +288,45 @@ background-color: #111;
 
 .c { 
     grid-area: li;
-    background-image:url(media/queenstown.jpeg);
+    background-image:url(media/machhupichu.jpg);
     background-size:cover;
 
 }
 
 .d {
     grid-area: co;
+    background-image:url(media/place.jpeg);
+    background-size:cover;
 }
 
 .e {
     
     grid-area: ti;
-    background-image:url(media/malay\ rock.jpeg);
+    background-image:url(media/queenstown.jpeg);
     background-size:cover;
+}
+
+
+.f  { 
+    grid-area: zi;
+    background-image:url(media/borabora.jpeg);
+    background-size:cover;
+}
+
+.g {
+    grid-area: gy;
+    background-image:url(media/greeth.jpeg);
+    object-fit:cover;
+}
+
+.h {
+    grid-area: xe;
+    background-image:url(media/drdoofenshmirtz.jpeg);
+    object-fit:cover;
+}
+
+.i {
+    grid-area: da;
+    background-image:url(media/);
+    object-fit:cover;
 }
