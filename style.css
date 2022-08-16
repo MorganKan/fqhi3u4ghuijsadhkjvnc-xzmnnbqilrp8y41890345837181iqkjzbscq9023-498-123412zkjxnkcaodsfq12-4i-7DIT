@@ -234,8 +234,8 @@ background-color: #111;
 .grid {
 
     display:grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-rows:1fr 1fr 1fr;
     grid-gap:25px;
     width:1350px;
     margin: 35px auto;
@@ -327,6 +327,6 @@ background-color: #111;
 
 .i {
     grid-area: da;
-    background-image:url(media/);
+    background-image:url(media/candad.jpeg);
     object-fit:cover;
 }
