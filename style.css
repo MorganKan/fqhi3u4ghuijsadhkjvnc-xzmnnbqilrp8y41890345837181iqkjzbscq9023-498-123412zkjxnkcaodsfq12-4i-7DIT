@@ -234,7 +234,7 @@ background-color: #111;
 .grid {
 
     display:grid;
-    grid-template-columns: 1fr 1fr 2fr 1fr;
+    grid-template-columns: 1fr 1fr 2fr 2fr;
     grid-template-rows:1fr 1fr 1fr;
     grid-gap:25px;
     width:1350px;
@@ -242,10 +242,10 @@ background-color: #111;
     
     grid-template-areas:
     "sq rt rt x"
-    "sq rt rt q"
-    "li rt rt d"
+    "sq rt rt x"
+    "li rt rt gx"
     "ti ti co gx"
-    "ti ti co gx"
+    "ti ti co d"
     "da xe xe zi"
     "da xe xe gy";
     
@@ -330,3 +330,10 @@ background-color: #111;
     background-image:url(media/candad.jpeg);
     object-fit:cover;
 }
+
+.j {
+    grid-area: x;
+    background-image:url(media/aus.jpeg);
+    
+}
+
