@@ -235,7 +235,7 @@ background-color: #111;
 
     display:grid;
     grid-template-columns: 1fr 1fr 2fr 2fr;
-    grid-template-rows:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr 1fr 2fr;
     grid-gap:25px;
     width:1350px;
     margin: 35px auto;
@@ -243,9 +243,8 @@ background-color: #111;
     grid-template-areas:
     "sq rt rt x"
     "sq rt rt x"
-    "li rt rt gx"
+    "li rt rt d"
     "ti ti co gx"
-    "ti ti co d"
     "da xe xe zi"
     "da xe xe gy";
     
@@ -336,4 +335,6 @@ background-color: #111;
     background-image:url(media/aus.jpeg);
     
 }
-
+.l {
+    grid-area:gx;
+}
